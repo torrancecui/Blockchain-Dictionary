@@ -1,8 +1,10 @@
 # Blockchain-Dictionary
 
-A simplified key value store backed by a blockchain. Created by Torrance Cui in March 2021.
+A simplified key value store backed by a blockchain.
 
 The program can support up to 5 different servers and up to 3 clients. Consensus among the 5 severs is reached through Multipaxos.
+
+# Program execution:
 
 Starting a server from root folder:
 ```` 
@@ -16,7 +18,7 @@ Starting a client from root folder:
 python3 client.py 1
 ```` 
 
-Supported commands:
+# Supported commands:
 ```` 
 connect
 ````
@@ -37,3 +39,5 @@ Simulates a link failure between two server nodes.
 fixLink <src> <dest>
 ```` 
 Fixes the link failure between two server nodes.
+
+# Developed by Torrance Cui 2021
