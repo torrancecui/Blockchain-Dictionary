@@ -4,7 +4,7 @@ A simplified key value store backed by a blockchain.
 
 The program can support up to 5 different servers and up to 3 clients. Consensus among the 5 severs is reached through Multipaxos.
 
-# Program execution:
+## Program execution:
 
 Starting a server from root folder:
 ```` 
@@ -18,7 +18,7 @@ Starting a client from root folder:
 python3 client.py 1
 ```` 
 
-# Supported commands:
+## Supported commands:
 ```` 
 connect
 ````
@@ -40,9 +40,9 @@ fixLink <src> <dest>
 ```` 
 Fixes the link failure between two server nodes.
 
-# Known Bugs:
+## Known Bugs:
 
 Trouble connecting to other running servers sometimes. Working on this issue.
-Sometimes have to restart environment to avoid "address already in use" error.
+Also, the user sometimes have to restart environment to avoid "address already in use" error.
 
-# Developed by Torrance Cui 2021
+### Developed by Torrance Cui 2021
