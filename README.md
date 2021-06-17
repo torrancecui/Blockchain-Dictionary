@@ -4,8 +4,7 @@ A simplified key value store backed by a blockchain. Created by Torrance Cui in 
 
 The program can support up to 5 different servers and up to 3 clients. Consensus among the 5 severs is reached through Multipaxos.
 
-
-<!-- Starting a server from root folder:
+Starting a server from root folder:
 ```` 
 //start up server with process id 1
 python3 server.py 1
@@ -15,7 +14,7 @@ Starting a client from root folder:
 ```` 
 //start up client with id 1
 python3 client.py 1
-````  -->
+```` 
 
 Supported commands:
 ```` 
