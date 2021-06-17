@@ -40,4 +40,9 @@ fixLink <src> <dest>
 ```` 
 Fixes the link failure between two server nodes.
 
+# Known Bugs:
+
+Trouble connecting to other running servers sometimes. Working on this issue.
+Sometimes have to restart environment to avoid "address already in use" error.
+
 # Developed by Torrance Cui 2021
